@@ -1,0 +1,41 @@
+.center{
+  text-align: center;
+  color: #fff;
+  margin-top: 6%;
+}
+.container{
+  display: flex;
+  justify-content: center;
+
+}
+.player{
+  font-size: x-large;
+  border: solid 1px #000;
+  margin: 2%;
+  width: 170px;
+  height: 180px;
+}
+.player .action{
+  padding: 3%;
+ margin: 23%;
+}
+.score{
+ border-bottom: solid 1px #000;
+ background-color: #1c6a64;
+
+}
+.buttons .round-btn{
+  padding:10px;
+  margin: 1%;
+  width: 100px;
+  height: 90px;
+  color: #fff;
+  border-radius: 50%;
+  border: solid 1px #132f2d;
+  background-color: #1c6a64;
+  font-size: medium;
+  cursor: pointer;
+}
+.buttons .round-btn:hover{
+  background-color: #1e8b82;
+}
